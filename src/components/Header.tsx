@@ -3,7 +3,6 @@ import Button from './Button';
 import { useGameStore } from '@state/gameStore';
 import { useNavigate } from 'react-router-dom';
 
-
 export const AppHeader = () => {
   const { account } = useAccount();
   const { disconnect, loading } = useDisconnect();
@@ -19,7 +18,7 @@ export const AppHeader = () => {
               navigate('/');
             }}
           >
-            <h1>Where is Chidera??</h1>
+            <h2>Where is chidera?</h2>
           </button>
           <Button
             size='sm'
