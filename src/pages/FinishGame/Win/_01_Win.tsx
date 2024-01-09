@@ -171,15 +171,15 @@ const Win = () => {
         />
         <div className='self-center whitespace-nowrap text-center text-sm font-extrabold tracking-tight text-primary-green'>
           {isChallenger
-            ? `You put Alex ${getAnswer(challenger_answer)}`
-            : `${shortenAddress(challenger_address)} put Alex ${getAnswer(
+            ? `You put Chidera ${getAnswer(challenger_answer)}`
+            : `${shortenAddress(challenger_address)} put Chidera ${getAnswer(
                 challenger_answer
               )}`}
         </div>
         <div className='self-center whitespace-nowrap text-center text-sm font-extrabold tracking-tight text-primary-green'>
           {!isChallenger
-            ? `You guessed Alex was ${getAnswer(opponent_answer)}`
-            : `${shortenAddress(opponent_address)} guessed Alex was ${getAnswer(
+            ? `You guessed Chidera was ${getAnswer(opponent_answer)}`
+            : `${shortenAddress(opponent_address)} guessed Chidera was ${getAnswer(
                 opponent_answer
               )}`}
         </div>
