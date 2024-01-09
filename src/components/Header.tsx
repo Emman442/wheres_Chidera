@@ -3,6 +3,7 @@ import Button from './Button';
 import { useGameStore } from '@state/gameStore';
 import { useNavigate } from 'react-router-dom';
 
+
 export const AppHeader = () => {
   const { account } = useAccount();
   const { disconnect, loading } = useDisconnect();
@@ -18,11 +19,7 @@ export const AppHeader = () => {
               navigate('/');
             }}
           >
-            <img
-              loading='lazy'
-              src='https://cdn.builder.io/api/v1/image/assets/TEMP/cd84c866-46d9-4d71-af0b-2055777b3fcb?'
-              className='aspect-[2.95] w-[161px] max-w-full self-stretch overflow-hidden fill-white object-cover object-center'
-            />
+            <h1>Where is Chidera??</h1>
           </button>
           <Button
             size='sm'
