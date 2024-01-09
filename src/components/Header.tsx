@@ -18,7 +18,7 @@ export const AppHeader = () => {
               navigate('/');
             }}
           >
-            <h2>Where is chidera?</h2>
+            <h1>Where is chidera?</h1>
           </button>
           <Button
             size='sm'
